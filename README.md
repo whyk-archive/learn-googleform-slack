@@ -1,5 +1,5 @@
 # Learn GoogleForm & Slack
-Googleフォームに投稿されたらSlackに通知するGASプロジェクト
+Googleフォームに投稿されたらSlackに通知するGASプロジェクト  
 ほぼ参考資料の写経です
 
 ## 参考資料
