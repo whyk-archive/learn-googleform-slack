@@ -6,7 +6,6 @@ const sendToSlack = (text: string, channel: string) => {
   const url = getEnvProperty('SLACK_CHANNEL_URL')
   const data: WebAPICallOptions = {
     channel,
-    username: 'テスト通知',
     attachments: [
       {
         color: '#000',
@@ -14,7 +13,6 @@ const sendToSlack = (text: string, channel: string) => {
         text
       }
     ],
-    icon_url: 'http://2.bp.blogspot.com/-Rd_w7b2kq70/VnE4FZen5oI/AAAAAAAA18w/mMasxPYIuCM/s800/pose_kyosyu_boy.png'
   }
   const payload = JSON.stringify(data)
   const options: GoogleAppsScript.URL_Fetch.URLFetchRequestOptions = {
