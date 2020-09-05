@@ -11,6 +11,7 @@
     "@google/clasp": "^2.3.0"
   },
   "dependencies": {
+    "@slack/web-api": "^5.11.0",
     "@types/google-apps-script": "^1.0.15"
   }
 }
